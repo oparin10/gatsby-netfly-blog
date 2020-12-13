@@ -12,6 +12,7 @@ module.exports = {
     },
   },
   plugins: [
+    "gatsby-plugin-netfly-cms",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
